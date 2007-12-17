@@ -11,7 +11,6 @@ Source:		http://baghira.sourceforge.net/%{oname}-%{version}.tar.bz2
 URL:		http://baghira.sourceforge.net/
 License:	GPL
 Group:		System/X11
-BuildRoot:	%{_tmppath}/%{oname}-buildroot
 BuildRequires:  X11-devel
 Conflicts:      xcompmgr
 
