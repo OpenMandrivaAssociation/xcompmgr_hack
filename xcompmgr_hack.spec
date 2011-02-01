@@ -1,7 +1,7 @@
 %define name	xcompmgr_hack
 %define oname xcompmgr
 %define version	2.02
-%define release %mkrel 7
+%define release %mkrel 8
 
 Name:		%{name}
 Version:	%{version}
@@ -12,7 +12,11 @@ URL:		http://baghira.sourceforge.net/
 License:	GPL
 Group:		System/X11
 BuildRoot:	%{_tmppath}/%{oname}-buildroot
-BuildRequires:  X11-devel
+BuildRequires:  libx11-devel
+BuildRequires:	libxcomposite-devel
+BuildRequires:	libxdamage-devel
+BuildRequires:	libxfixes-devel
+BuildRequires:	libxrender-devel
 Conflicts:      xcompmgr
 
 %description
@@ -31,7 +35,7 @@ version from http://baghira.sourceforge.net/
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%makeinstall
+%makeinstall_std
 
 %clean
 rm -rf $RPM_BUILD_ROOT
