@@ -12,11 +12,11 @@ URL:		http://baghira.sourceforge.net/
 License:	GPL
 Group:		System/X11
 BuildRoot:	%{_tmppath}/%{oname}-buildroot
-BuildRequires:  libx11-devel
-BuildRequires:	libxcomposite-devel
-BuildRequires:	libxdamage-devel
-BuildRequires:	libxfixes-devel
-BuildRequires:	libxrender-devel
+BuildRequires:  pkgconfig(x11)
+BuildRequires:	pkgconfig(xcomposite)
+BuildRequires:	pkgconfig(xdamage)
+BuildRequires:	pkgconfig(xfixes)
+BuildRequires:	pkgconfig(xrender)
 Conflicts:      xcompmgr
 
 %description
