@@ -1,7 +1,7 @@
 %define name	xcompmgr_hack
 %define oname xcompmgr
 %define version	2.02
-%define release  9
+%define release  10
 
 Name:		%{name}
 Version:	%{version}
