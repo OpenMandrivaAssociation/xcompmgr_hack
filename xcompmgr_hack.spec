@@ -8,7 +8,7 @@ Version:	%{version}
 Release:	%{release}
 Summary:	Sample X Compositing Manager
 Source:		http://baghira.sourceforge.net/%{oname}-%{version}.tar.bz2
-URL:		http://baghira.sourceforge.net/
+URL:		https://baghira.sourceforge.net/
 License:	GPL
 Group:		System/X11
 BuildRequires:  pkgconfig(x11)
