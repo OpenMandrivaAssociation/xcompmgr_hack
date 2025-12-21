@@ -11,6 +11,11 @@ Source:		http://baghira.sourceforge.net/%{oname}-%{version}.tar.bz2
 URL:		https://baghira.sourceforge.net/
 License:	GPL
 Group:		System/X11
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  pkgconfig(x11)
 BuildRequires:	pkgconfig(xcomposite)
 BuildRequires:	pkgconfig(xdamage)
